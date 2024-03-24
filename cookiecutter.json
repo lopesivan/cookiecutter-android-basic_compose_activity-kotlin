@@ -1,0 +1,12 @@
+{
+    "app_name": "MeuAplicativo",
+    "package_name": "br.com.exemplo.{{ cookiecutter.app_name|lower|replace(' ', '-') }}",
+    "sdk_dir": "/home/ivan/Android/Sdk",
+    "min_sdk_version": "24",
+    "target_sdk_version": "34",
+    "target_api_version": "31",
+    "__compile_sdk": "{{cookiecutter.target_sdk_version}}",
+    "__com_android_application_version": "8.1.4",
+    "__org_jetbrains_kotlin_android_version": "1.9.0",
+    "__package_dir": "{{cookiecutter.package_name|replace('.', '/')}}"
+}
